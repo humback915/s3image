@@ -10,3 +10,6 @@ REST API 호출시 이미지 파일 S3로 업로드 및 S3 업로드 시 트리�
 4. Lambda 트리거 구성
 5. AWS Lambda 원본 저장, 리사이징 저장 처리 결과
 ![](https://blog.kakaocdn.net/dn/HzA9S/btsAQeg25nC/WluRykzb814VGeK69a3iTK/img.png)
+오리지널 버킷
+
+리사이징 버킷
