@@ -19,6 +19,11 @@ REST API 호출시 이미지 파일 S3로 업로드 및 S3 업로드 시 트리�
 
 <br>
 
+## 설명 참조
+<p align="justify">
+https://def-xyj.tistory.com/entry/AWS-S3-%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%8C%8C%EC%9D%BC-%EB%A6%AC%EC%82%AC%EC%9D%B4%EC%A7%95-%EC%97%85%EB%A1%9C%EB%93%9C
+</p>
+<br>
 ## 구현 순서
 1. S3 원본 이미지 버킷과 리사이징 이미지 버킷 생성
 3. IAM 사용자 추가 및 S3 사용 권한 부여
