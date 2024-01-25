@@ -1,0 +1,27 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAXLHTVWLIG42NK4WG
+      secret-key: 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
+    region:
+      static: ap-northeast-2
+    s3:
+      bucket: imgtestbucket1
+    sns:
+      topic:
+        arn: arn:aws:sns:ap-northeast-2:505169687248:mytesttopic
+    sqs:
+      queue:
+        name: mytestqueue
+        url: https://sqs.ap-northeast-2.amazonaws.com/505169687248/mytestqueue
+    stack:
+      auto: false
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+server:
+  port: 8091
